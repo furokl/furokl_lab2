@@ -151,7 +151,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleApplication10.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="RGB.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RGB.h" />
+    <ClInclude Include="Image.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
