@@ -151,12 +151,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="draw.cpp" />
+    <ClCompile Include="furokl_lab2.cpp" />
     <ClCompile Include="Image.cpp" />
-    <ClCompile Include="RGB.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="RGB.h" />
+    <ClInclude Include="draw.h" />
+    <ClInclude Include="console_color.h" />
     <ClInclude Include="Image.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

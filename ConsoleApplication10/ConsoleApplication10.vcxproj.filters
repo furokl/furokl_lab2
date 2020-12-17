@@ -18,10 +18,10 @@
     <ClCompile Include="Image.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="RGB.cpp">
+    <ClCompile Include="draw.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="furokl_lab2.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +29,10 @@
     <ClInclude Include="Image.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="RGB.h">
+    <ClInclude Include="draw.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="console_color.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
